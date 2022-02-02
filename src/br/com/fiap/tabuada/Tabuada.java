@@ -7,10 +7,9 @@ public class Tabuada {
 		int cont = 0;
 		int produto = 0;
 		
-		while (cont < multiplicador) {
+		while (cont <= multiplicador) {
 			
 			produto = multiplicando * cont;
-			
 			System.out.println(multiplicando + " x " + cont + " = " + produto);
 			
 			cont = cont + 1;
